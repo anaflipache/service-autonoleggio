@@ -11,4 +11,7 @@
 
 ## 📌 Tecnologie utilizzate
 
-- mmm
+- **Python**: backend
+- **Flask** – framework per la creazione dell’API 
+- **MySQL** – database relazionale
+- **JSON** – formato di scambio dati
