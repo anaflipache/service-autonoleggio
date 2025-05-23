@@ -2,17 +2,17 @@
 
 **Service Autonoleggio** è un'applicazione backend in Python progettata per gestire un sistema di autonoleggio. Espone API dedicate alla gestione di clienti, veicoli e marche, consentendo funzionalità per il monitoraggio e la gestione completa delle operazioni legate al noleggio di veicoli.
 
+
 ## 💡 Funzionalità
 
 - **Gestione dei veicoli**: Inserimento, modifica e cancellazione di veicoli disponibili per il noleggio.
 - **Gestione dei clienti**: Registrazione e gestione delle informazioni dei clienti.
 - **Gestione delle prenotazioni**: Creazione e monitoraggio delle prenotazioni effettuate dai clienti.
-- **Reportistica**: Generazione di report dettagliati sulle attività di noleggio.
+  
 
+## 🔹 Endpoints disponibili
 
-## 🌐 Endpoints disponibili
-
-### 🧑‍💼 Clienti
+### Endpoint #1 – 👥 Clienti
 
 - **Registrazione cliente**  
   `POST /noleggio/clienti/create`  
@@ -44,7 +44,7 @@
 
 ---
 
-### 🚘 Autovetture
+### Endpoint #2 – 🚘 Autovetture
 
 - **Elenco autovetture**  
   `GET /noleggio/autovetture/get`  
@@ -56,7 +56,7 @@
 
 ---
 
-### 🏷️ Marche
+### Endpoint #4 – 🏷️ Marche
 
 - **Elenco marche**  
   `GET /noleggio/marche/get`  
