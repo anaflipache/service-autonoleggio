@@ -12,7 +12,7 @@
 
 ## 🔹 Endpoints disponibili
 
-### Endpoint #1 – 👥 Clienti
+### Endpoint – 👥 Clienti
 
 - **Registrazione cliente**  
   `POST /noleggio/clienti/create`  
@@ -44,7 +44,7 @@
 
 ---
 
-### Endpoint #2 – 🚘 Autovetture
+### Endpoint – 🚘 Autovetture
 
 - **Elenco autovetture**  
   `GET /noleggio/autovetture/get`  
@@ -56,7 +56,7 @@
 
 ---
 
-### Endpoint #4 – 🏷️ Marche
+### Endpoint – 🏷️ Marche
 
 - **Elenco marche**  
   `GET /noleggio/marche/get`  
@@ -71,3 +71,9 @@
 - **Flask** – framework per la creazione dell’API 
 - **MySQL** – database relazionale
 - **JSON** – formato di scambio dati
+
+
+## 🔒 Licenza
+
+Distribuito sotto licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
+
