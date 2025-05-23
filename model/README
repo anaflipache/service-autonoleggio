@@ -1,0 +1,4 @@
+Librerie installate:
+- Flask (web framework) -> pip install flask
+- PyMySQL (connettore db MySQL) -> pip install pymysql
+- Cerberus (validazione dati in entrata) -> pip install cerberus
